@@ -1,0 +1,18 @@
+[project]
+name = "hello-backend"
+version = "0.1.0"
+description = "Учебный бэкенд-проект"
+requires-python = ">=3.12"
+dependencies = []
+
+[dependency-groups]
+dev = [
+    "ruff",
+    "pytest",
+]
+
+[tool.ruff]
+line-length = 88
+
+[tool.ruff.lint]
+select = ["E", "F", "I"]
