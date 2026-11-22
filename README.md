@@ -9,7 +9,7 @@
 
 1. Клонируйте репозиторий и перейдите в папку проекта:
    ```bash
-   git clone <ссылка-на-ваш-репозиторий>
+   git clone https://github.com/Shapik42/hello-backend.git
    cd hello-backend
    ```
 
